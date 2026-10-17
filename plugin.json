@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "openagent-theme-nova",
-  "version": "1.1.0",
-  "description": "Nova: nova / neutral / neutral / neutral",
+  "version": "1.1.1",
+  "description": "A neutral gray theme with 13px text, rounded controls, and compact spacing; supports light and dark modes.",
   "license": "MIT",
   "repository": "https://github.com/BANG404/openagent-theme-nova",
   "homepage": "https://ui.shadcn.com/create",
@@ -135,12 +135,12 @@
         "default_locale": "en",
         "translations": {
           "en": {
-            "display_name": "Nova",
-            "description": "Nova: nova / neutral / neutral / neutral"
+            "display_name": "Nova Compact Theme",
+            "description": "A neutral gray theme with 13px text, rounded controls, and compact spacing; supports light and dark modes."
           },
           "zh": {
-            "display_name": "Nova",
-            "description": "Nova 主题：nova / neutral / neutral / neutral"
+            "display_name": "Nova 简约主题",
+            "description": "中性灰阶配色，搭配 13px 字号、圆角控件和紧凑间距，支持浅色与深色模式。"
           }
         }
       },
