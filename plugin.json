@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "openagent-theme-nova",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nova: nova / neutral / neutral / neutral",
   "license": "MIT",
   "repository": "https://github.com/BANG404/openagent-theme-nova",
@@ -121,7 +121,7 @@
       "i18n": {
         "supported_locales": [
           "en",
-          "zh-CN"
+          "zh"
         ],
         "default_locale": "en",
         "translations": {
@@ -129,7 +129,7 @@
             "display_name": "Nova",
             "description": "Nova: nova / neutral / neutral / neutral"
           },
-          "zh-CN": {
+          "zh": {
             "display_name": "Nova",
             "description": "Nova 主题：nova / neutral / neutral / neutral"
           }
