@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "openagent-theme-nova",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A neutral gray theme with 13px text, rounded controls, and compact spacing; supports light and dark modes.",
   "license": "MIT",
   "repository": "https://github.com/BANG404/openagent-theme-nova",
@@ -42,7 +42,9 @@
           "--menu-item-padding-inline": "12px",
           "--settings-card-row-padding-block": "12px",
           "--plugin-card-padding": "12px",
-          "--settings-content-padding": "24px"
+          "--settings-content-padding": "24px",
+          "--sidebar-selected": "var(--sidebar-accent)",
+          "--sidebar-selected-foreground": "var(--sidebar-accent-foreground)"
         },
         "light": {
           "--background": "oklch(1 0 0)",
@@ -72,7 +74,7 @@
           "--sidebar-foreground": "oklch(0.145 0 0)",
           "--sidebar-primary": "oklch(0.205 0 0)",
           "--sidebar-primary-foreground": "oklch(0.985 0 0)",
-          "--sidebar-accent": "oklch(0.97 0 0)",
+          "--sidebar-accent": "oklch(0.90 0 0)",
           "--sidebar-accent-foreground": "oklch(0.205 0 0)",
           "--sidebar-border": "oklch(0.922 0 0)",
           "--sidebar-ring": "oklch(0.708 0 0)",
@@ -109,7 +111,7 @@
           "--sidebar-foreground": "oklch(0.985 0 0)",
           "--sidebar-primary": "oklch(0.488 0.243 264.376)",
           "--sidebar-primary-foreground": "oklch(0.985 0 0)",
-          "--sidebar-accent": "oklch(0.269 0 0)",
+          "--sidebar-accent": "oklch(0.36 0 0)",
           "--sidebar-accent-foreground": "oklch(0.985 0 0)",
           "--sidebar-border": "oklch(1 0 0 / 10%)",
           "--sidebar-ring": "oklch(0.556 0 0)",
